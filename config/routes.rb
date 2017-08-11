@@ -1,8 +1,10 @@
 Rails.application.routes.draw do
-  get 'dashboards/one'
+  get 'pages/one'
 
-  get 'dashboards/two'
+  get 'pages/two'
 
-  root 'dashboards#one'
+  get 'pages/three'
+
+  root 'pages#one'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
